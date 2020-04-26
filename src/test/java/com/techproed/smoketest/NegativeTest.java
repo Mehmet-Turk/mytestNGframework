@@ -7,8 +7,10 @@ import com.techproed.utilities.TestBase;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class NegativeTest extends TestBase {
-    @Test
+
+public class NegativeTest {
+    FhcLoginPage fhcLoginPage = new FhcLoginPage();
+    @Test(groups = "regression1")
     public void firstNegativeTest(){
         //correct username but incorrect pass
         //open bug ticket!!!!
@@ -30,7 +32,7 @@ public class NegativeTest extends TestBase {
         String actualWarningMessage = fhcLoginPage.warningMessage.getText();
         Assert.assertTrue(actualWarningMessage.contains(ConfigReader.getProperty("error_message")));
     }
-    @Test
+    @Test(groups = "regression1")
     public void ThirdNegativeTest(){
         //both incorrect
         //open bug ticket!!!! pass==>man1ager2!

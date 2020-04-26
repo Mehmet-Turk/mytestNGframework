@@ -13,4 +13,6 @@ public class GlbHomePage {
     public WebElement joinNowButton;
     @FindBy(id = "header_search_category")
     public WebElement dropDown;
+    @FindBy (xpath = "//i[@class='fa fa-search']")
+    public WebElement searchButton;
 }

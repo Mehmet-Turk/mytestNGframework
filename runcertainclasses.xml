@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite 2" verbose="2">
+    <test name="smoke test">
+        <classes>
+            <class name="com.techproed.smoketest.PositiveTest"/>
+            <class name="com.techproed.smoketest.NegativeTest"/>
+
+        </classes>
+    </test>
+
+</suite>

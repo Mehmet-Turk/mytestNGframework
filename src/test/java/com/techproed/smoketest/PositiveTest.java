@@ -11,7 +11,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class PositiveTest {
-    @Test
+    @Test (groups = "regression1")
     public void positiveLoginTest(){
         login();
         FhcUsersPage fhcUsersPage =new FhcUsersPage();

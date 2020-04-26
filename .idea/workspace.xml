@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5785f25e-51c2-4579-ae4b-1addf608ab63" name="Default Changelist" comment="" />
+    <list default="true" id="5785f25e-51c2-4579-ae4b-1addf608ab63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/pages/GlbHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/pages/GlbHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/smoketest/NegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/smoketest/NegativeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/smoketest/PositiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/smoketest/PositiveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/pages/GlbHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/pages/GlbHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/smoketest/NegativeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/smoketest/NegativeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/smoketest/PositiveTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/smoketest/PositiveTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +35,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1a3OaVt7iNOBxVmJ3SjlWxaPJT3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,18 +51,28 @@
       <recent name="C:\Users\user\IdeaProjects\mytestNGframework\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FhcHotelRoomCreationPageTest.hotelRoomCreationVerification">
-    <configuration name="FhcHotelRoomCreationPageTest.hotelRoomCreationVerification" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ExtentReportsTest2.positiveTest">
+    <configuration name="C:/Users/user/IdeaProjects/mytestNGframework/runwithgroups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGframework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/runwithgroups.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtentReportsTest2.positiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGframework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.techproed.pageobjecttests.*" />
+          <option name="PATTERN" value="com.techproed.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.pageobjecttests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.pageobjecttests.FhcHotelRoomCreationPageTest" />
-      <option name="METHOD_NAME" value="hotelRoomCreationVerification" />
+      <option name="PACKAGE_NAME" value="com.techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.ExtentReportsTest2" />
+      <option name="METHOD_NAME" value="positiveTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -56,7 +80,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FhcRoomReservationCreationPageTest.reservationCreationVerification" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtentReportsTest.positiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.ExtentReportsTest" />
+      <option name="METHOD_NAME" value="positiveTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGframework" />
       <extension name="coverage">
         <pattern>
@@ -65,16 +107,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.smoketest" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.smoketest.FhcRoomReservationCreationPageTest" />
-      <option name="METHOD_NAME" value="reservationCreationVerification" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.smoketest.NegativeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FhcRoomReservationCreationPageTest.roomReservationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NegativeTest.firstNegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGframework" />
       <extension name="coverage">
         <pattern>
@@ -83,44 +124,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.smoketest" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.smoketest.FhcRoomReservationCreationPageTest" />
-      <option name="METHOD_NAME" value="roomReservationTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FhcRoomReservationPage.reservationCreation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGframework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.pages" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.pages.FhcRoomReservationPage" />
-      <option name="METHOD_NAME" value="reservationCreation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WriteExcel.writeExcel" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGframework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.excelAutomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.excelAutomation" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.excelAutomation.WriteExcel" />
-      <option name="METHOD_NAME" value="writeExcel" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.smoketest.NegativeTest" />
+      <option name="METHOD_NAME" value="firstNegativeTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -130,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FhcHotelRoomCreationPageTest.hotelRoomCreationVerification" />
-        <item itemvalue="TestNG.FhcRoomReservationCreationPageTest.reservationCreationVerification" />
-        <item itemvalue="TestNG.WriteExcel.writeExcel" />
-        <item itemvalue="TestNG.FhcRoomReservationCreationPageTest.roomReservationTest" />
-        <item itemvalue="TestNG.FhcRoomReservationPage.reservationCreation" />
+        <item itemvalue="TestNG.ExtentReportsTest2.positiveTest" />
+        <item itemvalue="TestNG.ExtentReportsTest.positiveTest" />
+        <item itemvalue="TestNG.NegativeTest" />
+        <item itemvalue="TestNG.C:/Users/user/IdeaProjects/mytestNGframework/runwithgroups.xml" />
+        <item itemvalue="TestNG.NegativeTest.firstNegativeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -164,30 +169,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="224" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1587392893401" />
-    <state width="1323" height="177" key="GridCell.Tab.0.bottom" timestamp="1587733281739">
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587765649351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="177" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587733281739" />
-    <state width="1323" height="177" key="GridCell.Tab.0.center" timestamp="1587733281739">
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1587765649351" />
+    <state width="1323" height="177" key="GridCell.Tab.0.bottom" timestamp="1587934814742">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="177" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587733281739" />
-    <state width="1323" height="177" key="GridCell.Tab.0.left" timestamp="1587733281739">
+    <state width="1323" height="177" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587934814742" />
+    <state width="1323" height="177" key="GridCell.Tab.0.center" timestamp="1587934814742">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="177" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587733281739" />
-    <state width="1323" height="177" key="GridCell.Tab.0.right" timestamp="1587733281739">
+    <state width="1323" height="177" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587934814742" />
+    <state width="1323" height="177" key="GridCell.Tab.0.left" timestamp="1587934814741">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="177" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587733281739" />
+    <state width="1323" height="177" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587934814741" />
+    <state width="1323" height="177" key="GridCell.Tab.0.right" timestamp="1587934814742">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="177" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587934814742" />
     <state x="186" y="10" key="SettingsEditor" timestamp="1585961028719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585961028719" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1587761563620">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1587924488170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587761563620" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587924488170" />
     <state x="392" y="0" width="607" height="728" key="find.popup" timestamp="1586913988333">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
