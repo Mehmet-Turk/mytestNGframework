@@ -13,5 +13,8 @@ public class GlbSearchPage {
     }
     @FindBy (xpath = "//h4[@class='icon-hotproduct']")
     public List<WebElement> allProducts;
+    @FindBy (xpath = "//div[@class='row']")
+    public List<WebElement> allProducts1;
+
 
 }

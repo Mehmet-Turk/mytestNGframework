@@ -61,6 +61,5 @@ public class TestBaseFinal {
 
     @AfterTest(alwaysRun = true)
     public void tearDownTest() {
-        extentReports.flush();
-    }
+        extentReports.flush();}
 }

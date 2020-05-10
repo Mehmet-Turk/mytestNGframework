@@ -7,9 +7,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class FhcLoginPage {
+    WebDriver driver;
     public FhcLoginPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
+    public FhcLoginPage(WebDriver driver){
+        PageFactory.initElements(Driver.getDriver(),this);
+    }
+
     @FindBy(id = "UserName")
     public WebElement username;
     @FindBy(id = "Password")

@@ -20,5 +20,7 @@ public class GlbSearchTest {
         Assert.assertEquals(glbSearchPage.allProducts.stream().map(t->t.getText()).count(), 20);
 
 
+
+
     }
 }
