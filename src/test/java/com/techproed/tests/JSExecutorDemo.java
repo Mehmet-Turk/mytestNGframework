@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class JSExecutorDemo {
@@ -14,7 +15,7 @@ public class JSExecutorDemo {
     //you can change the background color
     //when selenium has some limitation, then javascript executor can be used
     @Test
-    public void JavascriptExecutorTest(){
+    public void JavascriptExecutorTest() throws InterruptedException {
         Driver.getDriver().get(ConfigReader.getProperty("fhc_login_url"));
         WebElement loginButton=Driver.getDriver().findElement(By.id("btnSubmit"));
         clickElementByJS(loginButton);
@@ -22,6 +23,7 @@ public class JSExecutorDemo {
 
         scrollIntoViewByJS(Driver.getDriver().findElement(By.xpath("//*[.='Instagram']")));
         scrollDownByJS();
+        generateAlert("Merhaba");
     }
     //This method will takes two parameter: WebElement, and WebDriver
     //When you pass the element, JS will click on that element
@@ -61,7 +63,7 @@ public class JSExecutorDemo {
             e.printStackTrace();
         }
     }
-    //this willg enerate an alert when needed
+    //this will generate an alert when needed
     public void generateAlert(String message) throws InterruptedException {
         JavascriptExecutor javascriptExecutor = ((JavascriptExecutor) Driver.getDriver());
         javascriptExecutor.executeScript("alert('" + message + "')");

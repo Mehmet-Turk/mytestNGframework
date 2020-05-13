@@ -2,35 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5785f25e-51c2-4579-ae4b-1addf608ab63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/pages/DataTablesExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/soh/Review01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/DragDropExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/ExcelAutomation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/JSExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/NegativeTestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/exceldata.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/pages/DataTablesExcel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/soh/Review01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/DragDropExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/ExcelAutomation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/JSExecutorDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/NegativeTestCase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/exceldata.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/invalidID20200502023451.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/invalidID20200502024005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/invalidID20200502024513.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/invalidID20200502025205.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/DataProviderDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/pages/FhcLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/pages/FhcLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/pages/FhcUsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/pages/FhcUsersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/pages/GlbSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/pages/GlbSearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/smoketest/GlbSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/smoketest/GlbSearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBaseFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBaseFinal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/pages/FhcLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/pages/FhcLoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/pages/FhcUsersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/pages/FhcUsersPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/pages/GlbSearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/pages/GlbSearchPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/smoketest/GlbSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/smoketest/GlbSearchTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBaseFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBaseFinal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/JSExecutorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/JSExecutorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/JSExecutorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/JSExecutorDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +50,25 @@
       <recent name="C:\Users\user\IdeaProjects\mytestNGframework\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DragDropExample.drag">
+  <component name="RunManager" selected="TestNG.DataProviderDemo.LoginTest">
+    <configuration name="DataProviderDemo.LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.DataProviderDemo" />
+      <option name="METHOD_NAME" value="LoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DragDropExample.drag" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGframework" />
       <extension name="coverage">
@@ -104,24 +98,6 @@
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
       <option name="MAIN_CLASS_NAME" value="com.techproed.tests.ExcelAutomation" />
       <option name="METHOD_NAME" value="excelDataAutomation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GlbSearchTest.searchTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGframework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.smoketest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.smoketest" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.smoketest.GlbSearchTest" />
-      <option name="METHOD_NAME" value="searchTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -167,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DragDropExample.drag" />
+        <item itemvalue="TestNG.DataProviderDemo.LoginTest" />
         <item itemvalue="TestNG.JSExecutorDemo.JavascriptExecutorTest" />
+        <item itemvalue="TestNG.DragDropExample.drag" />
         <item itemvalue="TestNG.JSExecutorDemo.javaScriptExecutorTest" />
         <item itemvalue="TestNG.ExcelAutomation.excelDataAutomation" />
-        <item itemvalue="TestNG.GlbSearchTest.searchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -212,30 +188,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1587765649351" />
-    <state width="1323" height="194" key="GridCell.Tab.0.bottom" timestamp="1589145545231">
+    <state width="1323" height="194" key="GridCell.Tab.0.bottom" timestamp="1589335362504">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589145545231" />
-    <state width="1323" height="194" key="GridCell.Tab.0.center" timestamp="1589145545231">
+    <state width="1323" height="194" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589335362504" />
+    <state width="1323" height="194" key="GridCell.Tab.0.center" timestamp="1589335362504">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589145545231" />
-    <state width="1323" height="194" key="GridCell.Tab.0.left" timestamp="1589145545231">
+    <state width="1323" height="194" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589335362504" />
+    <state width="1323" height="194" key="GridCell.Tab.0.left" timestamp="1589335362504">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589145545231" />
-    <state width="1323" height="194" key="GridCell.Tab.0.right" timestamp="1589145545231">
+    <state width="1323" height="194" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589335362504" />
+    <state width="1323" height="194" key="GridCell.Tab.0.right" timestamp="1589335362504">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589145545231" />
+    <state width="1323" height="194" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589335362504" />
     <state x="186" y="10" key="SettingsEditor" timestamp="1585961028719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585961028719" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1588516055747">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1589324767354">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588516055747" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589324767354" />
     <state x="392" y="0" width="607" height="728" key="find.popup" timestamp="1586913988333">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
