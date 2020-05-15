@@ -1,5 +1,6 @@
 package com.techproed.tests;
 
+import com.techproed.utilities.Driver;
 import com.techproed.utilities.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -23,83 +24,83 @@ And Verify the text message on the pop up “HotelRoom was inserted successfully
      */
     @Test
     public void RoomCreateTest() throws InterruptedException {
-        driver.get("http://www.fhctrip.com/admin/HotelRoomAdmin");
+        Driver.getDriver().get("http://www.fhctrip.com/admin/HotelRoomAdmin");
         //entering page
-        WebElement userName = driver.findElement(By.id("UserName"));
+        WebElement userName = Driver.getDriver().findElement(By.id("UserName"));
         userName.sendKeys("manager2");
-        WebElement password = driver.findElement(By.id("Password"));
+        WebElement password = Driver.getDriver().findElement(By.id("Password"));
         password.sendKeys("Man1ager2!");
         //driver.findElement(By.id("RememberME")).click();
-        driver.findElement(By.xpath("//button")).click();
+        Driver.getDriver().findElement(By.xpath("//button")).click();
         //clicking on add hotelroom
-        WebElement addHotelRoom = driver.findElement(By.xpath("//span[@class='hidden-480']"));
+        WebElement addHotelRoom = Driver.getDriver().findElement(By.xpath("//span[@class='hidden-480']"));
         addHotelRoom.click();
         //selecting on dropdown
-        WebElement idHotel = driver.findElement(By.id("IDHotel"));
+        WebElement idHotel = Driver.getDriver().findElement(By.id("IDHotel"));
         idHotel.sendKeys("BugShooters Hotel");
         //selecting by select objects
 //        Select select = new Select(idHotel);
 //        select.selectByIndex(4);
         //entering code
-        WebElement codeTextBox = driver.findElement(By.id("Code"));
+        WebElement codeTextBox = Driver.getDriver().findElement(By.id("Code"));
         codeTextBox.sendKeys("272732");
         //entering name
-        WebElement nameTextBox = driver.findElement(By.id("Name"));
+        WebElement nameTextBox = Driver.getDriver().findElement(By.id("Name"));
         nameTextBox.sendKeys("Victoria");
         //entering description
 
-        WebElement descriptionTextBox = driver.findElement(By.xpath("//textarea[@dir='ltr']"));
+        WebElement descriptionTextBox = Driver.getDriver().findElement(By.xpath("//textarea[@dir='ltr']"));
         descriptionTextBox.sendKeys("Happy holidays");
 
         //Thread.sleep(1000);//sync issue so wait for performing drag drop
 
         //entering price
         WebElement priceTextBox = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Price")));
-        WebElement price = driver.findElement(By.xpath("//li[@data-id='500']"));
+        WebElement price = Driver.getDriver().findElement(By.xpath("//li[@data-id='500']"));
         actions.dragAndDrop(price,priceTextBox).perform();
 
         //selecting room type
-        WebElement roomType = driver.findElement(By.id("IDGroupRoomType"));
+        WebElement roomType = Driver.getDriver().findElement(By.id("IDGroupRoomType"));
         roomType.sendKeys("Queen");
 
         //entering number of adults
-        WebElement numberOfAdultsTextBox = driver.findElement(By.id("MaxAdultCount"));
+        WebElement numberOfAdultsTextBox = Driver.getDriver().findElement(By.id("MaxAdultCount"));
         numberOfAdultsTextBox.sendKeys("2");
 
         //entering number of children
-        WebElement numberOfChildrenTextBox = driver.findElement(By.id("MaxChildCount"));
+        WebElement numberOfChildrenTextBox = Driver.getDriver().findElement(By.id("MaxChildCount"));
         numberOfChildrenTextBox.sendKeys("1");
 
         //clicking approved
-        WebElement approvedCheckBox = driver.findElement(By.id("uniform-IsAvailable"));
+        WebElement approvedCheckBox = Driver.getDriver().findElement(By.id("uniform-IsAvailable"));
         approvedCheckBox.click();
 
         //clicking on save button
-        WebElement saveButton = driver.findElement(By.id("btnSubmit"));
+        WebElement saveButton = Driver.getDriver().findElement(By.id("btnSubmit"));
         saveButton.click();
         //
         WebElement alertText = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='bootbox-body']")));
        // or i can use wait.until(ExpectedConditions.textToBe(xpath, value)
-        String actualAlertText= driver.findElement(By.xpath("//div[@class='bootbox-body']")).getText();
+        String actualAlertText= Driver.getDriver().findElement(By.xpath("//div[@class='bootbox-body']")).getText();
        String expectedAlertText = "HotelRoom was inserted successfully";
         Assert.assertEquals(actualAlertText,expectedAlertText);
 
-        WebElement popUpButton = driver.findElement(By.xpath("//button[@data-bb-handler='ok']"));
+        WebElement popUpButton = Driver.getDriver().findElement(By.xpath("//button[@data-bb-handler='ok']"));
         popUpButton.click();
 
         //turning back hotel room page
-        WebElement hotelRoomsLink=wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//a[@href='/admin/HotelRoomAdmin']"))));
+        WebElement hotelRoomsLink=wait.until(ExpectedConditions.elementToBeClickable(Driver.getDriver().findElement(By.xpath("//a[@href='/admin/HotelRoomAdmin']"))));
         Thread.sleep(3000);
         actions.doubleClick(hotelRoomsLink).perform();
        //driver.navigate().back();
        
 
         //locating list of room
-        boolean isLocated = driver.findElement(By.xpath("//span[@class='caption-subject font-green-sharp bold uppercase']")).isDisplayed();
+        boolean isLocated = Driver.getDriver().findElement(By.xpath("//span[@class='caption-subject font-green-sharp bold uppercase']")).isDisplayed();
         Assert.assertTrue(isLocated);
 
         //locating code search
-        WebElement codeSearch = driver.findElement(By.name("Code"));
+        WebElement codeSearch = Driver.getDriver().findElement(By.name("Code"));
         codeSearch.sendKeys("272732");
         //clicking on search button
         WebElement searchButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='btn btn-sm yellow filter-submit margin-bottom']")));

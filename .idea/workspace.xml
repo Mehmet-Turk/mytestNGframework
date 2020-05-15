@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5785f25e-51c2-4579-ae4b-1addf608ab63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/DataProviderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parallel_test_03.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parallel_test_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parallel_test_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/parallelTesting/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/parallelTesting/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/invalidID20200514025500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/invalidID20200514025543.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/invalidID20200514025720.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/invalidID20200514030347.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/invalidID20200514044928.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/JSExecutorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/JSExecutorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/JSExecutorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/JSExecutorDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/HotelRoomCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/HotelRoomCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WaitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WaitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WebTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/HotelRoomCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/HotelRoomCreation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/WaitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/WaitTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/WebTables.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/WebTables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,26 +64,18 @@
       <recent name="C:\Users\user\IdeaProjects\mytestNGframework\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DataProviderDemo.LoginTest">
-    <configuration name="DataProviderDemo.LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/user/IdeaProjects/mytestNGframework/parallel_test_2.xml">
+    <configuration name="C:/Users/user/IdeaProjects/mytestNGframework/parallel_test_2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGframework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.DataProviderDemo" />
-      <option name="METHOD_NAME" value="LoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/parallel_test_2.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DragDropExample.drag" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HandlingAlerts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGframework" />
       <extension name="coverage">
         <pattern>
@@ -78,16 +84,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.DragDropExample" />
-      <option name="METHOD_NAME" value="drag" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.HandlingAlerts" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExcelAutomation.excelDataAutomation" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SoftAndHardAssertions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGframework" />
       <extension name="coverage">
         <pattern>
@@ -96,16 +101,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.ExcelAutomation" />
-      <option name="METHOD_NAME" value="excelDataAutomation" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.SoftAndHardAssertions" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSExecutorDemo.JavascriptExecutorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WaitTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGframework" />
       <extension name="coverage">
         <pattern>
@@ -114,16 +118,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.JSExecutorDemo" />
-      <option name="METHOD_NAME" value="JavascriptExecutorTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.WaitTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSExecutorDemo.javaScriptExecutorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTables" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGframework" />
       <extension name="coverage">
         <pattern>
@@ -132,9 +135,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.JSExecutorDemo" />
-      <option name="METHOD_NAME" value="javaScriptExecutorTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.WebTables" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -143,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DataProviderDemo.LoginTest" />
-        <item itemvalue="TestNG.JSExecutorDemo.JavascriptExecutorTest" />
-        <item itemvalue="TestNG.DragDropExample.drag" />
-        <item itemvalue="TestNG.JSExecutorDemo.javaScriptExecutorTest" />
-        <item itemvalue="TestNG.ExcelAutomation.excelDataAutomation" />
+        <item itemvalue="TestNG.C:/Users/user/IdeaProjects/mytestNGframework/parallel_test_2.xml" />
+        <item itemvalue="TestNG.SoftAndHardAssertions" />
+        <item itemvalue="TestNG.WaitTest" />
+        <item itemvalue="TestNG.WebTables" />
+        <item itemvalue="TestNG.HandlingAlerts" />
       </list>
     </recent_temporary>
   </component>
@@ -188,30 +190,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1587765649351" />
-    <state width="1323" height="194" key="GridCell.Tab.0.bottom" timestamp="1589335362504">
+    <state width="1323" height="194" key="GridCell.Tab.0.bottom" timestamp="1589421918294">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589335362504" />
-    <state width="1323" height="194" key="GridCell.Tab.0.center" timestamp="1589335362504">
+    <state width="1323" height="194" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589421918294" />
+    <state width="1323" height="194" key="GridCell.Tab.0.center" timestamp="1589421918294">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589335362504" />
-    <state width="1323" height="194" key="GridCell.Tab.0.left" timestamp="1589335362504">
+    <state width="1323" height="194" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589421918294" />
+    <state width="1323" height="194" key="GridCell.Tab.0.left" timestamp="1589421918294">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589335362504" />
-    <state width="1323" height="194" key="GridCell.Tab.0.right" timestamp="1589335362504">
+    <state width="1323" height="194" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589421918294" />
+    <state width="1323" height="194" key="GridCell.Tab.0.right" timestamp="1589421918294">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589335362504" />
+    <state width="1323" height="194" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589421918294" />
     <state x="186" y="10" key="SettingsEditor" timestamp="1585961028719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585961028719" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1589324767354">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1589548147471">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589324767354" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589548147471" />
     <state x="392" y="0" width="607" height="728" key="find.popup" timestamp="1586913988333">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

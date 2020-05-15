@@ -1,5 +1,6 @@
 package com.techproed.tests;
 
+import com.techproed.utilities.Driver;
 import com.techproed.utilities.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -19,10 +20,10 @@ Then verify "It's gone!" message displays
      */
     @Test
     public void implicitlyWait(){
-        driver.get("https://the-internet.herokuapp.com/dynamic_controls");
-        WebElement removeButton = driver.findElement(By.xpath("//button[@onclick='swapCheckbox()']"));
+        Driver.getDriver().get("https://the-internet.herokuapp.com/dynamic_controls");
+        WebElement removeButton = Driver.getDriver().findElement(By.xpath("//button[@onclick='swapCheckbox()']"));
         removeButton.click();
-        WebElement goneMessage = driver.findElement(By.id("message"));
+        WebElement goneMessage = Driver.getDriver().findElement(By.id("message"));
         String actualMessage = goneMessage.getText();
         String expectedMessage = "It's gone!";
         Assert.assertEquals(actualMessage, expectedMessage);
@@ -30,8 +31,8 @@ Then verify "It's gone!" message displays
     }
     @Test
     public void explicitlyWait(){
-        driver.get("https://the-internet.herokuapp.com/dynamic_controls");
-        WebElement removeButton = driver.findElement(By.xpath("//button[@onclick='swapCheckbox()']"));
+        Driver.getDriver().get("https://the-internet.herokuapp.com/dynamic_controls");
+        WebElement removeButton = Driver.getDriver().findElement(By.xpath("//button[@onclick='swapCheckbox()']"));
         removeButton.click();
         WebElement goneMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("message")));
         String actualMessage = goneMessage.getText();
@@ -47,8 +48,8 @@ Then verify "It's gone!" message displays
     Then verify that textbox is enable-I can type in
     And verify the text "It's enabled!
          */
-        driver.get("https://the-internet.herokuapp.com/dynamic_controls");
-        WebElement enableButton = driver.findElement(By.xpath("//button[@onclick='swapInput()']"));
+        Driver.getDriver().get("https://the-internet.herokuapp.com/dynamic_controls");
+        WebElement enableButton = Driver.getDriver().findElement(By.xpath("//button[@onclick='swapInput()']"));
         enableButton.click();
         //WebElement actualMessage = driver.findElement(By.id("message"));
         //commanding implicitly wait on TestBase class

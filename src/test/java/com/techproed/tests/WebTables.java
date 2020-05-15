@@ -1,6 +1,7 @@
 package com.techproed.tests;
 
 import com.google.gson.internal.$Gson$Preconditions;
+import com.techproed.utilities.Driver;
 import com.techproed.utilities.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -25,10 +26,11 @@ Print the element of a 15th cell
 //        Create a method: login() and log in : http://www.fhctrip.com/admin/HotelRoomAdmin
 //        manager2
 //        Man1ager2!
-        driver.get("http://www.fhctrip.com/admin/HotelRoomAdmin");
-        driver.findElement(By.id("UserName")).sendKeys("manager2");
-        driver.findElement(By.id("Password")).sendKeys("Man1ager2!");
-        driver.findElement(By.xpath("//button[@type='submit']")).click();
+
+        Driver.getDriver().get("http://www.fhctrip.com/admin/HotelRoomAdmin");
+        Driver.getDriver().findElement(By.id("UserName")).sendKeys("manager2");
+        Driver.getDriver().findElement(By.id("Password")).sendKeys("Man1ager2!");
+        Driver.getDriver().findElement(By.xpath("//button[@type='submit']")).click();
 
 
 
@@ -42,48 +44,48 @@ Print the element of a 15th cell
 //        Print the elements of the 5th column
 //        Print the element of a 15th cell
             Thread.sleep(3000);
-            WebElement tBody=driver.findElement(By.xpath("//tbody"));
+            WebElement tBody=Driver.getDriver().findElement(By.xpath("//tbody"));
             System.out.println(tBody.getText());
             //Finding the size=>find the total number of cells in the table bodyu
-            List<WebElement> table=driver.findElements(By.xpath("//tbody//td"));
+            List<WebElement> table=Driver.getDriver().findElements(By.xpath("//tbody//td"));
             System.out.println("The size of the table body is ===>> "+table.size());//Size of the table
-            System.out.println(driver.findElements(By.tagName("//tbody//td")).size());//We can use tag name to find the data
+            System.out.println(Driver.getDriver().findElements(By.tagName("//tbody//td")).size());//We can use tag name to find the data
 
 }
     //        Find the total number of rows and cells in the table body
     @Test
     public void printRows(){
         login();
-        System.out.println("There are " +driver.findElements(By.xpath("//tbody//tr")).size()+ " rows in the table");
-        List<WebElement> allRows = driver.findElements(By.xpath("//tbody//tr"));
+        System.out.println("There are " +Driver.getDriver().findElements(By.xpath("//tbody//tr")).size()+ " rows in the table");
+        List<WebElement> allRows = Driver.getDriver().findElements(By.xpath("//tbody//tr"));
         allRows.stream().map(t -> t.getText()+ " | ").forEach(System.out::print);
         System.out.println();
 
-        List<WebElement> fourRow = driver.findElements(By.xpath("//tbody//tr[4]//td"));
+        List<WebElement> fourRow = Driver.getDriver().findElements(By.xpath("//tbody//tr[4]//td"));
         fourRow.stream().map(t->t.getText()+ " | ").forEach(System.out::print);
     }
     @Test
     public void printCells(){
         login();
-        System.out.println("There are " +driver.findElements(By.xpath("//tbody//td")).size()+ " cells in the table");
-        List<WebElement> cells = driver.findElements(By.xpath("//tbody//td"));
+        System.out.println("There are " +Driver.getDriver().findElements(By.xpath("//tbody//td")).size()+ " cells in the table");
+        List<WebElement> cells = Driver.getDriver().findElements(By.xpath("//tbody//td"));
         cells.stream().map(t->t.getText()+" | ").forEach(System.out::print);
     }
     @Test
     public void printColumns(){
         login();
-        System.out.println("There are " +driver.findElements(By.xpath("//tr[3]//td")).size()+ " column in the table");
+        System.out.println("There are " +Driver.getDriver().findElements(By.xpath("//tr[3]//td")).size()+ " column in the table");
     }
     @Test
     public void printHeaders(){
         login();
-        List<WebElement> headers = driver.findElements(By.tagName("th"));
+        List<WebElement> headers = Driver.getDriver().findElements(By.tagName("th"));
         headers.stream().map(t->t.getText()+ " | ").forEach(System.out::print);
     }
     @Test
     public void columnFive() {
         login();
-        List<WebElement> column5 = driver.findElements(By.xpath("//tbody//td[5]"));
+        List<WebElement> column5 = Driver.getDriver().findElements(By.xpath("//tbody//td[5]"));
         column5.stream().map(t -> t.getText() + " | ").forEach(System.out::print);
     }
     public void printData(int row, int column){
@@ -99,7 +101,7 @@ Print the element of a 15th cell
         login();
         //List<WebElement> rowColumnPrint = driver.findElements(By.xpath("//tbody//tr["+row+"]//td"));
         String xpath = "//tbody//tr["+row+"]//td["+column+"]";
-        WebElement data = driver.findElement(By.xpath(xpath));
+        WebElement data = Driver.getDriver().findElement(By.xpath(xpath));
         System.out.println(data.getText());
     }
     @Test
