@@ -23,15 +23,18 @@ public class ExtentReportsTest {
     public ExtentTest extentTest;
     @BeforeTest
     public void setup(){
+        //starting the reporter and setting the path. it creates reports folder and extentreports file root level
         extentHtmlReporter = new ExtentHtmlReporter(".\\reports\\extentreports.html");
 //        it creates a file to put the reports inside
-        extentHtmlReporter.config().setReportName("FHC TRIP AUTOMATION REPORTS");
-        extentHtmlReporter.config().setTheme(Theme.DARK);
-        extentHtmlReporter.config().setDocumentTitle("FHC TRIP REPORT");
-        extentHtmlReporter.config().setEncoding("UTF-8");
+        //doing configuration (optional) arranging inside of the report
+        extentHtmlReporter.config().setReportName("FHC TRIP AUTOMATION REPORTS");//setting report name
+        extentHtmlReporter.config().setTheme(Theme.DARK);//theme, changing color
+        extentHtmlReporter.config().setDocumentTitle("FHC TRIP REPORT");//setting document title
+        extentHtmlReporter.config().setEncoding("UTF-8");//setting language
 
         extentReports = new ExtentReports();//creating extend reports. use it to attach reports
-        extentReports.attachReporter(extentHtmlReporter);
+        extentReports.attachReporter(extentHtmlReporter);//attaching report
+        //after this are optional
         extentReports.setSystemInfo("Automation Tester", "Mehmet");
         extentReports.setSystemInfo("Environment", "Test Environment");
         extentReports.setSystemInfo("browser", ConfigReader.getProperty("browser"));
@@ -55,10 +58,11 @@ public class ExtentReportsTest {
         glbTraderRegisterPage.phone.sendKeys(ConfigReader.getProperty("glb_valid_phone"));
         extentTest.info("Sending user phone number");
         glbTraderRegisterPage.password.sendKeys(ConfigReader.getProperty("glb_valid_password"));
-        extentTest.pass("Sending user password");
+        //extentTest.pass("Sending user password");
         glbTraderRegisterPage.rePassword.sendKeys(ConfigReader.getProperty("glb_valid_password"));
         glbTraderRegisterPage.submitButton.click();
         Assert.assertTrue(glbTraderRegisterPage.successMessage.isDisplayed());
-        extentTest.pass("Assertion");
+        //extentTest.pass("Assertion");
+        extentTest.fail("fail");
     }
 }

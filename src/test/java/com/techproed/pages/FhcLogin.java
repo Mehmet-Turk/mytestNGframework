@@ -21,12 +21,12 @@ public class FhcLogin {
     @FindBy(xpath = "//div[@id='divMessageResult']")
     public WebElement error_message;
     //creating a log in method
-    public void login(){
+    public void login(String uName, String pass){
         //login("manager2","Manager2!");==> user=manager2,pass=Manager2!
         //login("asdga","asdga");==>user="asdga" , pass="asdga"
         Driver.getDriver().get(ConfigReader.getProperty("fhc_login_url"));
-        username.sendKeys(ConfigReader.getProperty("valid_username"));
-        password.sendKeys(ConfigReader.getProperty("valid_password"));
+        username.sendKeys(uName);
+        password.sendKeys(pass);
         logInButton.click();
     }
 }

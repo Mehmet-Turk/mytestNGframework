@@ -38,7 +38,7 @@ public class FhcHotelRoomCreationPageTest extends TestBase {
     }
     @Test
     public void hotelRoomCreationVerification() throws InterruptedException {
-        fhcLogin.login();
+        //fhcLogin.login();
         fhcUsersPage.hotelManagement.click();
         fhcUsersPage.hotelRooms.click();
         Assert.assertTrue(fhcHotelRoomsPage.listOfRoomsText.isDisplayed());

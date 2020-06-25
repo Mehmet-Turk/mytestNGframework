@@ -2,25 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5785f25e-51c2-4579-ae4b-1addf608ab63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/parallel_test_03.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parallel_test_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parallel_test_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/parallelTesting/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/parallelTesting/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/invalidID20200514025500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/invalidID20200514025543.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/invalidID20200514025720.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/invalidID20200514030347.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/invalidID20200514044928.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crossBrowserTesting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crossbrowserparalleltesting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mehmet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/crossbrowsertests/NegativeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/crossbrowsertests/PositiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/crossbrowsertests/SearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/DriverCross.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBaseCross.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/errorMessageVerification20200608013443.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/saucedemoLogin20200608013209.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/uploadFileMethod20200608014017.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/HotelRoomCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/HotelRoomCreation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WaitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WaitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WebTables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/HotelRoomCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/HotelRoomCreation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/WaitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/WaitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/WebTables.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/WebTables.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regressionsuite1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/regressionsuite1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/extentreports.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/extentreports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runcertainclasses.xml" beforeDir="false" afterPath="$PROJECT_DIR$/runcertainclasses.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smoketest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smoketest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/excelAutomation/ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/excelAutomation/ReadExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/excelAutomation/WriteExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/excelAutomation/WriteExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/pageobjecttests/FhcHotelRoomCreationPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/pageobjecttests/FhcHotelRoomCreationPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/pages/FhcLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/pages/FhcLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/ActionsClassExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/ActionsClassExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/AmazonDropDownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/AmazonDropDownTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/DataProviderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/DataProviderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/DragDropExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/DragDropExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/ExtentReportsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/ExtentReportsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/FhcAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/FhcAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/IframeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/IframeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/JSExecutorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/JSExecutorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Soh_04_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Soh_04_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/UploadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/UploadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/mytestNGframework.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/excelAutomation/ReadExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/excelAutomation/ReadExcel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/excelAutomation/WriteExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/excelAutomation/WriteExcel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/pageobjecttests/FhcHotelRoomCreationPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/pageobjecttests/FhcHotelRoomCreationPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/pages/FhcLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/pages/FhcLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/parallelTesting/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/parallelTesting/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/parallelTesting/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/parallelTesting/Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/ActionsClassExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/ActionsClassExamples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/AmazonDropDownTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/AmazonDropDownTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/DataProviderDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/DataProviderDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/DragDropExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/DragDropExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/ExtentReportsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/ExtentReportsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/FhcAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/FhcAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/IframeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/IframeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/JSExecutorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/JSExecutorDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/Soh_04_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/Soh_04_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/UploadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/UploadFile.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +85,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/apache/poi/poi/4.1.2/poi-4.1.2.jar!/" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -64,18 +94,8 @@
       <recent name="C:\Users\user\IdeaProjects\mytestNGframework\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/user/IdeaProjects/mytestNGframework/parallel_test_2.xml">
-    <configuration name="C:/Users/user/IdeaProjects/mytestNGframework/parallel_test_2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGframework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/parallel_test_2.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HandlingAlerts" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AmazonDropDownTest.dropdownTest">
+    <configuration name="ActionsClassExamples.imageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGframework" />
       <extension name="coverage">
         <pattern>
@@ -84,15 +104,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.HandlingAlerts" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.ActionsClassExamples" />
+      <option name="METHOD_NAME" value="imageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoftAndHardAssertions" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AmazonDropDownTest.dropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGframework" />
       <extension name="coverage">
         <pattern>
@@ -101,15 +122,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.SoftAndHardAssertions" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.AmazonDropDownTest" />
+      <option name="METHOD_NAME" value="dropdownTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DataProviderDemo.sa" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGframework" />
       <extension name="coverage">
         <pattern>
@@ -118,15 +140,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.WaitTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.DataProviderDemo" />
+      <option name="METHOD_NAME" value="sa" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTables" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JSExecutorDemo.JavascriptExecutorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGframework" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +158,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.WebTables" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.JSExecutorDemo" />
+      <option name="METHOD_NAME" value="JavascriptExecutorTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadFile.uploadFileMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.UploadFile" />
+      <option name="METHOD_NAME" value="uploadFileMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -145,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/user/IdeaProjects/mytestNGframework/parallel_test_2.xml" />
-        <item itemvalue="TestNG.SoftAndHardAssertions" />
-        <item itemvalue="TestNG.WaitTest" />
-        <item itemvalue="TestNG.WebTables" />
-        <item itemvalue="TestNG.HandlingAlerts" />
+        <item itemvalue="TestNG.AmazonDropDownTest.dropdownTest" />
+        <item itemvalue="TestNG.ActionsClassExamples.imageTest" />
+        <item itemvalue="TestNG.DataProviderDemo.sa" />
+        <item itemvalue="TestNG.JSExecutorDemo.JavascriptExecutorTest" />
+        <item itemvalue="TestNG.UploadFile.uploadFileMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -170,10 +212,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589129292623">
+    <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589741929053">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589129292623" />
+    <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589741929053" />
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589137763727">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -190,38 +232,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1587765649351" />
-    <state width="1323" height="194" key="GridCell.Tab.0.bottom" timestamp="1589421918294">
+    <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1591560111124">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589421918294" />
-    <state width="1323" height="194" key="GridCell.Tab.0.center" timestamp="1589421918294">
+    <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591560111124" />
+    <state width="1323" height="194" key="GridCell.Tab.0.bottom" timestamp="1592812739786">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589421918294" />
-    <state width="1323" height="194" key="GridCell.Tab.0.left" timestamp="1589421918294">
+    <state width="1323" height="194" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592812739786" />
+    <state width="1323" height="194" key="GridCell.Tab.0.center" timestamp="1592812739785">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589421918294" />
-    <state width="1323" height="194" key="GridCell.Tab.0.right" timestamp="1589421918294">
+    <state width="1323" height="194" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592812739785" />
+    <state width="1323" height="194" key="GridCell.Tab.0.left" timestamp="1592812739784">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589421918294" />
+    <state width="1323" height="194" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592812739784" />
+    <state width="1323" height="194" key="GridCell.Tab.0.right" timestamp="1592812739786">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="194" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592812739786" />
     <state x="186" y="10" key="SettingsEditor" timestamp="1585961028719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585961028719" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1589548147471">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1592851875124">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589548147471" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592851875124" />
     <state x="392" y="0" width="607" height="728" key="find.popup" timestamp="1586913988333">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="392" y="0" width="607" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1586913988333" />
-    <state x="65" y="60" key="new project wizard" timestamp="1588517450300">
+    <state x="65" y="60" key="new project wizard" timestamp="1590145908700">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="60" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1588517450300" />
+    <state x="65" y="60" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590145908699" />
     <state x="324" y="90" width="700" height="530" key="recent.locations.popup" timestamp="1586717031246">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

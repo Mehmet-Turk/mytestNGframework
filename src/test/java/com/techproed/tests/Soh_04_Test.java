@@ -3,10 +3,11 @@ package com.techproed.tests;
 import com.techproed.soh.Soh_Day_04_page;
 import com.techproed.soh.Soh_sauce_productPage;
 import com.techproed.utilities.Driver;
+import com.techproed.utilities.TestBaseFinal;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Soh_04_Test {
+public class Soh_04_Test  extends TestBaseFinal {
     Soh_Day_04_page soh_day_04 = new Soh_Day_04_page();
     Soh_sauce_productPage soh_sauce_productPage = new Soh_sauce_productPage();
 

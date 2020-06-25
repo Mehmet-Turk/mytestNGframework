@@ -12,7 +12,6 @@ public class DragDropExample extends TestBase {
         Driver.getDriver().get("https://the-internet.herokuapp.com/drag_and_drop");
         WebElement a = Driver.getDriver().findElement(By.id("column-a"));
         WebElement b = Driver.getDriver().findElement(By.id("column-b"));
-        actions.dragAndDrop(b,a);
-
+        actions.clickAndHold(a).moveToElement(b).release().build().perform();
     }
 }

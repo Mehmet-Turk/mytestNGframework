@@ -1,6 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Regression Suite 1" verbose="1" >
     <test name="FHC Trip Regression Suite" >
+        <parameter name="browser" value="safari"></parameter>
         <packages>
             <package name=".*"></package>
         </packages>

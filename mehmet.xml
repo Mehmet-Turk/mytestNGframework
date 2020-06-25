@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Mehmet" verbose="2">
+    <test name="Mehmet test">
+        <groups>
+            <run>
+                <include name="smoketest"/>
+            </run>
+        </groups>
+    </test>
+</suite>

@@ -14,6 +14,7 @@ public class IframeTest {
     /*
     create a class : IframeTest
     create a @BeforeMethod and go to https://the-internet.herokuapp.com/iframe
+    write smth inside iframe
      */
     WebDriver driver;
     @BeforeClass
@@ -33,7 +34,7 @@ public class IframeTest {
         //2.checking if i have wait problem
         //3.then check the page if you have some iframe
         //trying to write in iframe
-        //if I HAVE IFRAME I NEED TO SWTICH TO IFRAME
+        //if I HAVE IFRAME I NEED TO SWTICH TO IFRAMEw
         //THERE ARE 3 WAYS TO SWITCH AN IFRAME 1)INDEX, 2)ID OR 3)WEB ELEMENT
         //driver.switchTo().frame("mce_0_ifr");//SWITCHING TO IFRAME BY ID
         //driver.switchTo().frame(0);//SWITCHING TO IFRAME BY INDEX NUMBER FIRST OR SECOND ETC

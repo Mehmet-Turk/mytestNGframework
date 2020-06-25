@@ -2,7 +2,7 @@
 <suite name="Suite 1" verbose="2">
     <test name="Test 1">
         <packages>
-            <package name="com.techproed.smoketest"/>
+            <package name="com.techproed.smoketest"></package>
         </packages>
         
     </test>

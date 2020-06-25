@@ -8,4 +8,15 @@
         </classes>
     </test>
 
+
+
+    <test name="Mehmet" verbose="2" >
+        <packages>
+            <package name="com.techproed.crossbrowsertests"/>
+        </packages>
+
+    </test>
+
 </suite>
+
+

@@ -1,6 +1,7 @@
 package com.techproed.tests;
 
 import com.techproed.utilities.TestBase;
+import com.techproed.utilities.TestBaseFinal;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +16,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class AmazonDropDownTest extends TestBase {
+public class AmazonDropDownTest extends TestBaseFinal {
     /*Go to https://www.amazon.ca/
     Find the element of the dropdown element. HINT: By.id("searchDropdownBox")
     Print the first selected option and assert if it equals “All Departments”

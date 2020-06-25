@@ -23,6 +23,7 @@ And verifies the “Edit Hotel” text that opened on the window
     @Test
     public void editHotel(){
         driver.get("http://www.fhctrip.com/admin/HotelAdmin");
+        //fhcLogin.login("Ali", "veli");
         WebElement userName = driver.findElement(By.id("UserName"));
         userName.sendKeys("manager2");
         WebElement password = driver.findElement(By.id("Password"));

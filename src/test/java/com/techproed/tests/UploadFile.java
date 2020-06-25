@@ -1,11 +1,12 @@
 package com.techproed.tests;
 import com.techproed.utilities.TestBase;
+import com.techproed.utilities.TestBaseFinal;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-public class UploadFile extends TestBase {
+public class UploadFile extends TestBaseFinal {
     @Test
     public void uploadFileMethod(){
         driver.get("https://the-internet.herokuapp.com/upload");
@@ -19,6 +20,6 @@ public class UploadFile extends TestBase {
         //We need to click the upload button
         driver.findElement(By.id("file-submit")).click();
         //We are doing assertion to verify the upload is successful
-        Assert.assertEquals(driver.findElement(By.xpath("//h3")).getText(),"File Uploaded!");
+        Assert.assertEquals(driver.findElement(By.xpath("//h3")).getText(),"File Uploaded5!");
     }
 }

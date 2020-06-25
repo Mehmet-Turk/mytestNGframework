@@ -4,6 +4,7 @@ import com.techproed.utilities.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -52,6 +53,8 @@ Then accept the alert
         actions.moveToElement(tryPrime).perform();
         WebElement picture = driver.findElement(By.xpath("//div[@class='pin-nav-content-img']"));
         Assert.assertTrue(picture.isDisplayed());
+        ChromeOptions options = new ChromeOptions();
+        System.out.println(options.getVersion());
     }
     @Test
     public void keysUpDown(){

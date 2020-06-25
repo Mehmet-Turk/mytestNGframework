@@ -18,11 +18,12 @@ public class JSExecutorDemo {
     public void JavascriptExecutorTest() throws InterruptedException {
         Driver.getDriver().get(ConfigReader.getProperty("fhc_login_url"));
         WebElement loginButton=Driver.getDriver().findElement(By.id("btnSubmit"));
-        clickElementByJS(loginButton);
+        //clickElementByJS(loginButton);
         System.out.println(getTitleByJS());
 
         scrollIntoViewByJS(Driver.getDriver().findElement(By.xpath("//*[.='Instagram']")));
         scrollDownByJS();
+        changeColor("green",Driver.getDriver().findElement(By.xpath("//*[.='Instagram']")));
         generateAlert("Merhaba");
     }
     //This method will takes two parameter: WebElement, and WebDriver
@@ -69,4 +70,5 @@ public class JSExecutorDemo {
         javascriptExecutor.executeScript("alert('" + message + "')");
         Thread.sleep(3000);
     }
+
 }

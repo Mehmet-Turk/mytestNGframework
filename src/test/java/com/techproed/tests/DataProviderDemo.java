@@ -8,6 +8,9 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class DataProviderDemo {
 
     @Test(dataProvider = "login data")
@@ -18,6 +21,7 @@ public class DataProviderDemo {
         fhcLogin.password.sendKeys(pass);
         fhcLogin.logInButton.click();
         Assert.assertFalse(fhcLogin.error_message.getText().contains(ConfigReader.getProperty("login_error_message")));
+
     }
     @DataProvider(name = "login data")//while using dataprovider use this name
     //defines method as data provider and data provider takes 2 dimensional array and returns
@@ -38,6 +42,7 @@ public class DataProviderDemo {
         data[2][1]="pass3";
         return data;
     }
+
 
 }
 
